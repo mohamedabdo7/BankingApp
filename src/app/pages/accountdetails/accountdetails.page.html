@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color='primary'>
+    <ion-title class="ion-text-center">Account Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="content">
+    <div id="accName"><b>{{ accDetails.accountName }}</b></div>
+
+    <div id="accInfo">
+      <ul>
+        <li>Account Number: {{ accDetails.accountNum }}</li>
+        <li>Balance:        {{ accDetails.balance }}</li>
+      </ul>
+    </div>
+
+    <div id="input">
+      <ion-label>Transfer Balance</ion-label>
+      <ion-input placeholder="Enter Input">
+        <ion-icon name="card"></ion-icon>
+      </ion-input>
+    </div>
+
+  </div>
+
+  
+
+</ion-content>
